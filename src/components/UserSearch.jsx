@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 import styled from 'styled-components'
 import getUsers from '../utils/getUsers'
 import Collapse from 'react-bootstrap/Collapse'
-import FoundUser from './Founduser'
+import FoundUser from './FoundUser'
 
 export default function UserSearch () {
   const [open, setOpen] = useState(false)
