@@ -1,8 +1,8 @@
-import LoginView from './LoginView'
-import Chat from './Chat'
 import { useContext } from 'react'
 import { AppContext } from '../context/AppContext'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import LoginView from './LoginView'
+import Chat from './Chat'
 
 export default function Router () {
   const { auth } = useContext(AppContext)

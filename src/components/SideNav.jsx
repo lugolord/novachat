@@ -1,8 +1,8 @@
-import styled from 'styled-components'
-import Badge from '@mui/material/Badge'
 import { useNavigate } from 'react-router-dom'
 import { useContext } from 'react'
 import { AppContext } from '../context/AppContext'
+import styled from 'styled-components'
+import Badge from '@mui/material/Badge'
 
 export default function SideNav () {
   const { setAuth } = useContext(AppContext)
